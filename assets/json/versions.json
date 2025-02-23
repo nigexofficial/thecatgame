@@ -24,7 +24,9 @@
 			"name": "gamma",
 			"display_name": "Gamma"
 		},
-		"description": null,
+		"description": [
+			"Horribly bugged textures, dont use it please"
+		],
 		"features": [
 			"Cat Game final Build - First non beta Build",
 			"Uniuqe icon for title bar, taskbar, etc..."
