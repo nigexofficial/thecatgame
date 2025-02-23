@@ -8,10 +8,11 @@
 		"description": null,
 		"features": [
 			"New Title BGM",
-			"Internal Bug Fixes",
 			"Added disclaimer saying game is still beta on Boot Up"
 		],
-		"bug_fixes": [],
+		"bug_fixes": [
+			"Internal Bug Fixes"
+		],
 		"notes": [
 			"Getting ready for GameJolt Release"
 		],
@@ -22,9 +23,11 @@
 	{
 		"version": "1.3",
 		"codename": null,
-		"description": "Internal bug fixes",
+		"description": null,
 		"features": [],
-		"bug_fixes": [],
+		"bug_fixes": [
+			"Internal bug fixes"
+		],
 		"notes": [],
 		"download_link": {
 			"error": "we_are_so_lazy_to_search_for_link"
@@ -35,7 +38,7 @@
 	{
 		"version": "1.2",
 		"codename": null,
-		"description": "Internal bug fixes",
+		"description": null,
 		"features": [
 			"Secret Map (Beta Room)",
 			"Changed title screen",
@@ -55,7 +58,7 @@
 	{
 		"version": "1.1",
 		"codename": null,
-		"description": "Internal bug fixes"
+		"description": null,
 		"features": [
 			"Startup Screen",
 			"Name Changed from Cat to Cat Game",
@@ -73,7 +76,7 @@
 	{
 		"version": "1.0",
 		"codename": null,
-		"description": "Internal bug fixes"
+		"description": null,
 		"features": [
 			"Final Release",
 			"Cat Design Changed"
