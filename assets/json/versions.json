@@ -1,4 +1,21 @@
 [
+	 {
+		"version": "1.5.1",
+		"codename": {
+			"name": "gamma",
+			"display_name": "Gamma"
+		},
+		"description": null,
+		"features": [
+			"Cat Game final Build - First non beta Build",
+			"Uniuqe icon for title bar, taskbar, etc..."
+		],
+		"bug_fixes": null,
+		"notes": null,
+		"download_link": "https://cdn.pidoras.xyz/files/CatGame/installer/CatUnpacker.exe",
+		"release_date": "02.23.2025",
+		"id": 6
+	},
         {
 		"version": "1.5.0",
 		"codename": {
@@ -15,7 +32,7 @@
 			"Fixed textures sometimes breaking"
 		],
 		"notes": null,
-		"download_link": "https://cdn.pidoras.xyz/files/CatGame/installer/CatUnpacker.exe",
+		"download_link": null,
 		"release_date": "02.23.2025",
 		"id": 5
 	},
@@ -36,7 +53,7 @@
 		"notes": [
 			"Getting ready for GameJolt Release"
 		],
-		"download_link": "https://cdn.pidoras.xyz/files/CatGame/installer/CatUnpacker.exe",
+		"download_link": null,
 		"release_date": "02.23.2025",
 		"id": 4
 	},
@@ -49,9 +66,7 @@
 			"Internal bug fixes"
 		],
 		"notes": [],
-		"download_link": {
-			"error": "we_are_so_lazy_to_search_for_link"
-		},
+		"download_link": null,
 		"release_date": "02.19.2025",
 		"id": 3
 	},
@@ -69,9 +84,7 @@
 			"Game no longer crashes when going out of bounds"
 		], 
 		"notes": [],
-		"download_link": {
-			"error": "we_are_so_lazy_to_search_for_link"
-		},
+		"download_link": null,
 		"release_date": "02.14.2025",
 		"id": 2
 	},
@@ -90,9 +103,7 @@
 		"bug_fixes": [
 			"Recources included so people dont need to own RPG Maker to play"
 		], 
-		"download_link": {
-			"error": "we_are_so_lazy_to_search_for_link"
-		},
+		"download_link": null,
 		"release_date": "02.14.2025",
 		"id": 1
 	},
@@ -108,9 +119,7 @@
 			"Game no longer crashes on Windows 7"
 		],
 		"notes": [],
-		"download_link": {
-			"error": "we_are_so_lazy_to_search_for_link"
-		},
+		"download_link": null,
 		"release_date": "02.14.2025",
 		"id": 0
 	}
