@@ -120,10 +120,10 @@
 			"Remade from scratch",
 			"Secret cat"
 		],
-		"bug_fixes": [],
 		"bug_fixes": [
 			"Recources included so people dont need to own RPG Maker to play"
 		], 
+		"notes": [],
 		"download_link": null,
 		"release_date": "02.14.2025",
 		"id": 1
