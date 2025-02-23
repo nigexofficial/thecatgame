@@ -35,7 +35,7 @@
 	{
 		"version": "1.2",
 		"codename": null,
-		"description": "Internal bug fixes"
+		"description": "Internal bug fixes",
 		"features": [
 			"Secret Map (Beta Room)",
 			"Changed title screen",
