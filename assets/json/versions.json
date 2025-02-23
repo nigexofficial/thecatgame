@@ -1,4 +1,23 @@
 [
+	{
+		"version": "1.6",
+		"codename": {
+			"name": "beyond",
+			"display_name": "Beyond"
+		},
+		"description": null,
+		"features": [
+			"Complete map rehaul",
+			"New Textures and Cats"
+		],
+		"bug_fixes": [
+			"Fixed The obliterated textures in Gamma, that was caused due an error in Editing"
+		],
+		"notes": null,
+		"download_link": "https://cdn.pidoras.xyz/files/CatGame/installer/CatUnpacker.exe",
+		"release_date": "02.23.2025",
+		"id": 7
+	},
 	 {
 		"version": "1.5.1",
 		"codename": {
