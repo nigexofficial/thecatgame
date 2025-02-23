@@ -83,10 +83,13 @@
 			"Startup Screen",
 			"Name Changed from Cat to Cat Game",
 			"Storage cut in half",
+			"Remade from scratch",
 			"Secret cat"
 		],
 		"bug_fixes": [],
-		"notes": [],
+		"bug_fixes": [
+			"Recources included so people dont need to own RPG Maker to play"
+		], 
 		"download_link": {
 			"error": "we_are_so_lazy_to_search_for_link"
 		},
