@@ -1,6 +1,9 @@
 [
 	{
 		"anytodo": "true",
-		"ToDo": "GameJolt support (Achievements and more)"
+		"ToDo": [
+			"GameJolt support (Achievements and more)",
+			"Multiplayer (Not 100%)"
+		],
 	}
 ]
