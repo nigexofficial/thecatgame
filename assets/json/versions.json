@@ -45,7 +45,7 @@
 			"Removed the menu on escape button",
 			"Changed Secret Cat behaviour"
 		],
-		"bugfixes": [
+		"bug_fixes": [
 			"Game no longer crashes when going out of bounds"
 		], 
 		"notes": [],
