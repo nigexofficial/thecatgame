@@ -25,6 +25,9 @@
 			"display_name": "Gamma"
 		},
 		"description": [
+			"First non beta build, yay!"
+		],
+                "extreme_bugs": [
 			"Horribly bugged textures, dont use it please"
 		],
 		"features": [
