@@ -1,24 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Cat Game - Made by NiGex</title>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden;
-        }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Cat Game - By NiGex</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-color: #38BDF8;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+
+    .loader-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #38BDF8;
+      z-index: 1000;
+      transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1), transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .cat-carousel {
+      position: relative;
+      width: 200px;
+      height: 100px;
+    }
+
+    .cat {
+      position: absolute;
+      font-size: 40px;
+      top: 50%;
+      transform: translateY(-50%);
+      opacity: 0;
+      transition: all 0.35s ease;
+    }
+
+    .cat-1 {
+      left: 80px;
+      opacity: 0;
+      transform: translateY(-50%) scale(1.2);
+      animation: firstCatEntrance 0.5s forwards,
+                 cat1 1.05s infinite 2s;
+    }
+
+    .cat-2 {
+      opacity: 0;
+      animation: secondCatEntrance 0.5s forwards 0.7s,
+                 cat2 1.05s infinite 2s;
+    }
+
+    .cat-3 {
+      opacity: 0;
+      animation: thirdCatEntrance 0.5s forwards 1.4s,
+                 cat3 1.05s infinite 2s;
+    }
+
+    @keyframes firstCatEntrance {
+      0% { 
+        opacity: 0;
+        transform: translateY(-50%) scale(0);
+      }
+      100% { 
+        opacity: 1;
+        transform: translateY(-50%) scale(1.2);
+      }
+    }
+
+    @keyframes secondCatEntrance {
+      0% { 
+        left: 80px;
+        opacity: 0;
+        transform: translateY(-50%) scale(0);
+      }
+      100% { 
+        left: 0;
+        opacity: 0.7;
+        transform: translateY(-50%) scale(0.8);
+      }
+    }
+
+    @keyframes thirdCatEntrance {
+      0% { 
+        left: 80px;
+        opacity: 0;
+        transform: translateY(-50%) scale(0);
+      }
+      100% { 
+        left: 160px;
+        opacity: 0.7;
+        transform: translateY(-50%) scale(0.8);
+      }
+    }
+
+    @keyframes cat1 {
+      0%, 100% { left: 0; opacity: 0.7; transform: translateY(-50%) scale(0.8); }
+      33.33% { left: 80px; opacity: 1; transform: translateY(-50%) scale(1.2); }
+      66.66% { left: 160px; opacity: 0.7; transform: translateY(-50%) scale(0.8); }
+    }
+
+    @keyframes cat2 {
+      0%, 100% { left: 80px; opacity: 1; transform: translateY(-50%) scale(1.2); }
+      33.33% { left: 160px; opacity: 0.7; transform: translateY(-50%) scale(0.8); }
+      66.66% { left: 0; opacity: 0.7; transform: translateY(-50%) scale(0.8); }
+    }
+
+    @keyframes cat3 {
+      0%, 100% { left: 160px; opacity: 0.7; transform: translateY(-50%) scale(0.8); }
+      33.33% { left: 0; opacity: 0.7; transform: translateY(-50%) scale(0.8); }
+      66.66% { left: 80px; opacity: 1; transform: translateY(-50%) scale(1.2); }
+    }
+
+    .website-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .loader-hidden {
+      opacity: 0;
+      transform: translateY(-120%) scale(0.95);
+      pointer-events: none;
+    }
+
+    .website-visible {
+      opacity: 1;
+      visibility: visible;
+    }
+  </style>
 </head>
 <body>
-    <iframe src="https://kzmjpwaegma8mw1a48z5.lite.vusercontent.net/"</iframe>
+  <div class="loader-container" id="loader">
+    <div class="cat-carousel">
+      <div class="cat cat-1">🐱</div>
+      <div class="cat cat-2">🐱</div>
+      <div class="cat cat-3">🐱</div>
+    </div>
+  </div>
+
+  <div class="website-container" id="website">
+    <iframe src="https://kzmr0dvpzf02mvkiar1l.lite.vusercontent.net/" title="Website" loading="eager"></iframe>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const loader = document.getElementById('loader');
+      const website = document.getElementById('website');
+      setTimeout(function() {
+        loader.classList.add('loader-hidden');
+        website.classList.add('website-visible');
+      }, 9000);
+    });
+  </script>
 </body>
 </html>
+
