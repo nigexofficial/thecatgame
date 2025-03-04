@@ -1,0 +1,150 @@
+[
+	{
+		"version": "1.6.0",
+		"codename": {
+			"name": "beyond",
+			"display_name": "Beyond"
+		},
+		"description": null,
+		"features": [
+			"Complete map rehaul",
+			"New Textures and Cats"
+		],
+		"bug_fixes": [
+			"Fixed The obliterated textures in 1.5.1, that was caused due an error in Editing"
+		],
+		"notes": null,
+		"download_link": "https://cdn.pidoras.xyz/files/CatGame/installer/CatUnpacker.exe",
+		"release_date": "02.23.2025",
+		"id": 7
+	},
+	 {
+		"version": "1.5.1",
+		"codename": {
+			"name": "gamma",
+			"display_name": "Gamma"
+		},
+		"description": [
+			"First non beta build, yay!"
+		],
+                "extreme_bugs": [
+			"Horribly bugged textures, dont use it please"
+		],
+		"features": [
+			"Cat Game final Build - First non beta Build",
+			"Uniuqe icon for title bar, taskbar, etc..."
+		],
+		"bug_fixes": null,
+		"notes": null,
+		"download_link": "https://cdn.pidoras.xyz/files/CatGame/installer/CatUnpacker.exe",
+		"release_date": "02.23.2025",
+		"id": 6
+	},
+        {
+		"version": "1.5.0",
+		"codename": {
+			"name": "star",
+			"display_name": "Star"
+		},
+		"description": null,
+		"features": [
+			"Main Character is now a Cat",
+			"New Textures",
+			"A lot of cleaning internally"
+		],
+		"bug_fixes": [
+			"Fixed textures sometimes breaking"
+		],
+		"notes": null,
+		"download_link": null,
+		"release_date": "02.23.2025",
+		"id": 5
+	},
+	{
+		"version": "1.4",
+		"codename": {
+			"name": "cherry",
+			"display_name": "Cherry"
+		},
+		"description": null,
+		"features": [
+			"New Title BGM",
+			"Added disclaimer saying game is still beta on Boot Up"
+		],
+		"bug_fixes": [
+			"Internal Bug Fixes"
+		],
+		"notes": [
+			"Getting ready for GameJolt Release"
+		],
+		"download_link": null,
+		"release_date": "02.23.2025",
+		"id": 4
+	},
+	{
+		"version": "1.3",
+		"codename": null,
+		"description": null,
+		"features": [],
+		"bug_fixes": [
+			"Internal bug fixes"
+		],
+		"notes": [],
+		"download_link": null,
+		"release_date": "02.19.2025",
+		"id": 3
+	},
+	{
+		"version": "1.2",
+		"codename": null,
+		"description": null,
+		"features": [
+			"Secret Map (Beta Room)",
+			"Changed title screen",
+			"Removed the menu on escape button",
+			"Changed Secret Cat behaviour"
+		],
+		"bug_fixes": [
+			"Game no longer crashes when going out of bounds"
+		], 
+		"notes": [],
+		"download_link": null,
+		"release_date": "02.14.2025",
+		"id": 2
+	},
+	{
+		"version": "1.1",
+		"codename": null,
+		"description": null,
+		"features": [
+			"Startup Screen",
+			"Name Changed from Cat to Cat Game",
+			"Storage cut in half",
+			"Remade from scratch",
+			"Secret cat"
+		],
+		"bug_fixes": [
+			"Recources included so people dont need to own RPG Maker to play"
+		], 
+		"notes": [],
+		"download_link": null,
+		"release_date": "02.14.2025",
+		"id": 1
+	},
+	{
+		"version": "1.0",
+		"codename": null,
+		"description": null,
+		"features": [
+			"Final Release",
+			"Cat Design Changed"
+		],
+		"bug_fixes": [
+			"Game no longer crashes on Windows 7"
+		],
+		"notes": [],
+		"download_link": null,
+		"release_date": "02.14.2025",
+		"id": 0
+	}
+]
